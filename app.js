@@ -1,48 +1,76 @@
-const chartDom = document.getElementById("chart");
-const chart = echarts.init(chartDom);
-
-// ==========================
-// CONFIG
-// ==========================
+const chart = echarts.init(document.getElementById("chart"));
 
 const RACE = "tdf";
 const YEAR = 2023;
 const TOTAL_STAGES = 21;
-const FRAME_DURATION = 900; // ms between stages
-
-let currentStage = 1;
-let timer = null;
 
 // ==========================
-// DATA LOADING
+// LOAD ALL STAGES
 // ==========================
 
-async function loadStage(stage) {
-  const stageStr = String(stage).padStart(2, "0");
-  const url = `data/${RACE}/${YEAR}/stage_${stageStr}.json`;
+async function loadAllStages() {
+  const stages = [];
 
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`Failed to load ${url}`);
+  for (let i = 1; i <= TOTAL_STAGES; i++) {
+    const s = String(i).padStart(2, "0");
+    const res = await fetch(`data/${RACE}/${YEAR}/stage_${s}.json`);
+    stages.push(await res.json());
   }
-  return res.json();
+
+  return stages;
 }
 
 // ==========================
-// CHART RENDERING
+// BUILD TIMELINE OPTIONS
 // ==========================
 
-function render(stageData, stageNumber) {
-  // Sort by gap seconds (ascending)
-  const sorted = [...stageData].sort(
-    (a, b) => a.gap_seconds - b.gap_seconds
-  );
+function buildOptions(stages) {
+  return stages.map((stageData, idx) => {
+    const sorted = [...stageData].sort(
+      (a, b) => a.gap_seconds - b.gap_seconds
+    );
 
+    return {
+      title: {
+        text: `Tour de France ${YEAR}`,
+        subtext: `After Stage ${idx + 1}`,
+        left: "center"
+      },
+
+      yAxis: {
+        type: "category",
+        inverse: true,
+        data: sorted.map(d => d.rider)
+      },
+
+      series: [
+        {
+          type: "bar",
+          realtimeSort: true,
+          data: sorted.map(d => d.gap_seconds),
+          label: {
+            show: true,
+            position: "right",
+            formatter: (p) => sorted[p.dataIndex].overall_time
+          }
+        }
+      ]
+    };
+  });
+}
+
+// ==========================
+// INIT
+// ==========================
+
+loadAllStages().then(stages => {
   chart.setOption({
-    title: {
-      text: `Tour de France ${YEAR} — Stage ${stageNumber}`,
-      left: "center",
-      top: 10
+    timeline: {
+      axisType: "category",
+      autoPlay: true,
+      playInterval: 800,
+      show: false,        // hide UI, pure animation
+      data: stages.map((_, i) => `S${i + 1}`)
     },
 
     grid: {
@@ -54,83 +82,27 @@ function render(stageData, stageNumber) {
 
     xAxis: {
       type: "value",
-      name: "Time gap (seconds)",
+      name: "GC gap (seconds)",
       axisLabel: {
-        formatter: (v) => `+${v}s`
+        formatter: v => `+${v}s`
       }
     },
 
     yAxis: {
       type: "category",
-      inverse: true,
-      data: sorted.map(d => d.rider),
-      axisLabel: {
-        fontSize: 12
-      }
+      inverse: true
     },
 
     series: [
       {
         type: "bar",
-        data: sorted.map(d => d.gap_seconds),
         realtimeSort: true,
         barWidth: 18,
-
-        label: {
-          show: true,
-          position: "right",
-          formatter: (p) => {
-            const d = sorted[p.dataIndex];
-            return `${d.overall_time}`;
-          }
-        },
-
-        itemStyle: {
-          color: "#5470C6"
-        },
-
-        animationDuration: FRAME_DURATION * 0.8,
+        animationDuration: 700,
         animationEasing: "linear"
       }
-    ]
+    ],
+
+    options: buildOptions(stages)
   });
-}
-
-// ==========================
-// ANIMATION LOOP
-// ==========================
-
-async function play() {
-  if (timer) return;
-
-  timer = setInterval(async () => {
-    try {
-      const data = await loadStage(currentStage);
-      render(data, currentStage);
-
-      currentStage++;
-
-      if (currentStage > TOTAL_STAGES) {
-        stop();
-      }
-    } catch (err) {
-      console.error(err);
-      stop();
-    }
-  }, FRAME_DURATION);
-}
-
-function stop() {
-  clearInterval(timer);
-  timer = null;
-}
-
-// ==========================
-// INIT
-// ==========================
-
-// Load first stage immediately
-loadStage(1).then(data => render(data, 1));
-
-// Start animation automatically
-setTimeout(play, 1200);
+});
