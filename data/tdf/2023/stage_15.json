@@ -1,142 +1,2831 @@
-[
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 1,
-    "rider": "Poels Wout Bahrain - Victorious",
-    "team": "Bahrain - Victorious",
-    "gap": "+1:35:36",
-    "gap_seconds": 5736,
-    "overall_time": "4:40:45"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 2,
-    "rider": "van Aert Wout Jumbo-Visma",
-    "team": "Jumbo-Visma",
-    "gap": "+1:07:25",
-    "gap_seconds": 4045,
-    "overall_time": "2:08"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 3,
-    "rider": "Burgaudeau Mathieu TotalEnergies",
-    "team": "TotalEnergies",
-    "gap": "+1:21:18",
-    "gap_seconds": 4878,
-    "overall_time": "3:00"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 4,
-    "rider": "Craddock Lawson Team Jayco AlUla",
-    "team": "Team Jayco AlUla",
-    "gap": "+3:00:57",
-    "gap_seconds": 10857,
-    "overall_time": "3:10"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 5,
-    "rider": "Landa Mikel Bahrain - Victorious fav_gc",
-    "team": "Bahrain - Victorious",
-    "gap": "+22:48",
-    "gap_seconds": 1368,
-    "overall_time": "3:14"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 6,
-    "rider": "Pinot Thibaut Groupama - FDJ fav_gc",
-    "team": "Groupama - FDJ",
-    "gap": "+20:12",
-    "gap_seconds": 1212,
-    "overall_time": "3:14"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 7,
-    "rider": "Martin Guillaume Cofidis",
-    "team": "Cofidis",
-    "gap": "+14:18",
-    "gap_seconds": 858,
-    "overall_time": "3:32"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 8,
-    "rider": "Skjelmose Mattias Lidl - Trek fav_gc",
-    "team": "Lidl - Trek",
-    "gap": "+1:22:26",
-    "gap_seconds": 4946,
-    "overall_time": "3:43"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 9,
-    "rider": "Guglielmi Simon Team Arkéa Samsic",
-    "team": "Team Arkéa Samsic",
-    "gap": "+3:15:22",
-    "gap_seconds": 11722,
-    "overall_time": "3:59"
-  },
-  {
-    "race": "tdf",
-    "year": 2023,
-    "stage": 15,
-    "stage_finish": "Les Gets les Portes du Soleil  ›  Saint-Gervais Mont-Blanc",
-    "stage_distance_km": 179.0,
-    "stage_profile": null,
-    "rank": 10,
-    "rider": "Barguil Warren Team Arkéa Samsic",
-    "team": "Team Arkéa Samsic",
-    "gap": "+1:16:05",
-    "gap_seconds": 4565,
-    "overall_time": "4:20"
-  }
-]
+{
+  "stage": 15,
+  "gc": [
+    {
+      "rank": 1,
+      "rider": "Poels Wout Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "4:40:45",
+      "gc_seconds": 16845,
+      "gap": "+1:35:36",
+      "gap_seconds": 5736
+    },
+    {
+      "rank": 2,
+      "rider": "van Aert Wout Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "2:08",
+      "gc_seconds": 128,
+      "gap": "+1:07:25",
+      "gap_seconds": 4045
+    },
+    {
+      "rank": 3,
+      "rider": "Burgaudeau Mathieu TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "3:00",
+      "gc_seconds": 180,
+      "gap": "+1:21:18",
+      "gap_seconds": 4878
+    },
+    {
+      "rank": 4,
+      "rider": "Craddock Lawson Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "3:10",
+      "gc_seconds": 190,
+      "gap": "+3:00:57",
+      "gap_seconds": 10857
+    },
+    {
+      "rank": 5,
+      "rider": "Landa Mikel Bahrain - Victorious fav_gc",
+      "team": "Bahrain - Victorious",
+      "gc_time": "3:14",
+      "gc_seconds": 194,
+      "gap": "+22:48",
+      "gap_seconds": 1368
+    },
+    {
+      "rank": 6,
+      "rider": "Pinot Thibaut Groupama - FDJ fav_gc",
+      "team": "Groupama - FDJ",
+      "gc_time": "3:14",
+      "gc_seconds": 194,
+      "gap": "+20:12",
+      "gap_seconds": 1212
+    },
+    {
+      "rank": 7,
+      "rider": "Martin Guillaume Cofidis",
+      "team": "Cofidis",
+      "gc_time": "3:32",
+      "gc_seconds": 212,
+      "gap": "+14:18",
+      "gap_seconds": 858
+    },
+    {
+      "rank": 8,
+      "rider": "Skjelmose Mattias Lidl - Trek fav_gc",
+      "team": "Lidl - Trek",
+      "gc_time": "3:43",
+      "gc_seconds": 223,
+      "gap": "+1:22:26",
+      "gap_seconds": 4946
+    },
+    {
+      "rank": 9,
+      "rider": "Guglielmi Simon Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "3:59",
+      "gc_seconds": 239,
+      "gap": "+3:15:22",
+      "gap_seconds": 11722
+    },
+    {
+      "rank": 10,
+      "rider": "Barguil Warren Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "4:20",
+      "gc_seconds": 260,
+      "gap": "+1:16:05",
+      "gap_seconds": 4565
+    },
+    {
+      "rank": 11,
+      "rider": "Teuns Dylan Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "5:06",
+      "gc_seconds": 306,
+      "gap": "+1:45:00",
+      "gap_seconds": 6300
+    },
+    {
+      "rank": 12,
+      "rider": "Aranburu Alex Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "5:10",
+      "gc_seconds": 310,
+      "gap": "+2:16:26",
+      "gap_seconds": 8186
+    },
+    {
+      "rank": 13,
+      "rider": "Houle Hugo Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "5:31",
+      "gc_seconds": 331,
+      "gap": "+2:12:40",
+      "gap_seconds": 7960
+    },
+    {
+      "rank": 14,
+      "rider": "Ciccone Giulio Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "5:35",
+      "gc_seconds": 335,
+      "gap": "+1:44:21",
+      "gap_seconds": 6261
+    },
+    {
+      "rank": 15,
+      "rider": "Urán Rigoberto EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "5:53",
+      "gc_seconds": 353,
+      "gap": "+2:59:52",
+      "gap_seconds": 10792
+    },
+    {
+      "rank": 16,
+      "rider": "Pogačar Tadej UAE Team Emirates fav_gc",
+      "team": "UAE Team Emirates",
+      "gc_time": "6:04",
+      "gc_seconds": 364,
+      "gap": "+0:10",
+      "gap_seconds": 10
+    },
+    {
+      "rank": 17,
+      "rider": "Vingegaard Jonas Jumbo-Visma fav_gc",
+      "team": "Jumbo-Visma",
+      "gc_time": "6:04",
+      "gc_seconds": 364,
+      "gap": "+0:00",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 18,
+      "rider": "Yates Adam UAE Team Emirates fav_gc",
+      "team": "UAE Team Emirates",
+      "gc_time": "6:24",
+      "gc_seconds": 384,
+      "gap": "+5:40",
+      "gap_seconds": 340
+    },
+    {
+      "rank": 19,
+      "rider": "Rodríguez Carlos INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "6:42",
+      "gc_seconds": 402,
+      "gap": "+5:21",
+      "gap_seconds": 321
+    },
+    {
+      "rank": 20,
+      "rider": "Kuss Sepp Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "7:05",
+      "gc_seconds": 425,
+      "gap": "+9:16",
+      "gap_seconds": 556
+    },
+    {
+      "rank": 21,
+      "rider": "Soler Marc UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "7:05",
+      "gc_seconds": 425,
+      "gap": "+2:29:44",
+      "gap_seconds": 8984
+    },
+    {
+      "rank": 22,
+      "rider": "Gaudu David Groupama - FDJ fav_gc",
+      "team": "Groupama - FDJ",
+      "gc_time": "7:15",
+      "gc_seconds": 435,
+      "gap": "+14:07",
+      "gap_seconds": 847
+    },
+    {
+      "rank": 23,
+      "rider": "Bilbao Pello Bahrain - Victorious fav_gc",
+      "team": "Bahrain - Victorious",
+      "gc_time": "7:24",
+      "gc_seconds": 444,
+      "gap": "+10:11",
+      "gap_seconds": 611
+    },
+    {
+      "rank": 24,
+      "rider": "Majka Rafał UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "7:52",
+      "gc_seconds": 472,
+      "gap": "+47:31",
+      "gap_seconds": 2851
+    },
+    {
+      "rank": 25,
+      "rider": "Hindley Jai BORA - hansgrohe fav_gc",
+      "team": "BORA - hansgrohe",
+      "gc_time": "7:58",
+      "gc_seconds": 478,
+      "gap": "+6:38",
+      "gap_seconds": 398
+    },
+    {
+      "rank": 26,
+      "rider": "Gall Felix AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "8:17",
+      "gc_seconds": 497,
+      "gap": "+14:39",
+      "gap_seconds": 879
+    },
+    {
+      "rank": 27,
+      "rider": "Yates Simon Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "8:20",
+      "gc_seconds": 500,
+      "gap": "+10:48",
+      "gap_seconds": 648
+    },
+    {
+      "rank": 28,
+      "rider": "Pidcock Thomas INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "8:35",
+      "gc_seconds": 515,
+      "gap": "+16:53",
+      "gap_seconds": 1013
+    },
+    {
+      "rank": 29,
+      "rider": "Castroviejo Jonathan INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "10:47",
+      "gc_seconds": 647,
+      "gap": "+34:21",
+      "gap_seconds": 2061
+    },
+    {
+      "rank": 30,
+      "rider": "Mühlberger Gregor Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "10:47",
+      "gc_seconds": 647,
+      "gap": "+2:14:14",
+      "gap_seconds": 8054
+    },
+    {
+      "rank": 31,
+      "rider": "Benoot Tiesj Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "10:55",
+      "gc_seconds": 655,
+      "gap": "+1:35:29",
+      "gap_seconds": 5729
+    },
+    {
+      "rank": 32,
+      "rider": "Tejada Harold Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "11:07",
+      "gc_seconds": 667,
+      "gap": "+1:32:36",
+      "gap_seconds": 5556
+    },
+    {
+      "rank": 33,
+      "rider": "Lutsenko Alexey Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "11:48",
+      "gc_seconds": 708,
+      "gap": "+2:02:50",
+      "gap_seconds": 7370
+    },
+    {
+      "rank": 34,
+      "rider": "Træen Torstein Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "12:58",
+      "gc_seconds": 778,
+      "gap": "+3:25:59",
+      "gap_seconds": 12359
+    },
+    {
+      "rank": 35,
+      "rider": "Neilands Krists Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "13:18",
+      "gc_seconds": 798,
+      "gap": "+2:04:57",
+      "gap_seconds": 7497
+    },
+    {
+      "rank": 36,
+      "rider": "Großschartner Felix UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "13:54",
+      "gc_seconds": 834,
+      "gap": "+1:14:10",
+      "gap_seconds": 4450
+    },
+    {
+      "rank": 37,
+      "rider": "Kelderman Wilco Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "13:54",
+      "gc_seconds": 834,
+      "gap": "+55:43",
+      "gap_seconds": 3343
+    },
+    {
+      "rank": 38,
+      "rider": "Harper Chris Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "14:05",
+      "gc_seconds": 845,
+      "gap": "+48:14",
+      "gap_seconds": 2894
+    },
+    {
+      "rank": 39,
+      "rider": "Hamilton Chris Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "14:17",
+      "gc_seconds": 857,
+      "gap": "+1:49:50",
+      "gap_seconds": 6590
+    },
+    {
+      "rank": 40,
+      "rider": "Geniets Kevin Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "14:33",
+      "gc_seconds": 873,
+      "gap": "+1:49:55",
+      "gap_seconds": 6595
+    },
+    {
+      "rank": 41,
+      "rider": "Jungels Bob BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "14:33",
+      "gc_seconds": 873,
+      "gap": "+1:33:25",
+      "gap_seconds": 5605
+    },
+    {
+      "rank": 42,
+      "rider": "O'Connor Ben AG2R Citroën Team fav_gc",
+      "team": "AG2R Citroën Team",
+      "gc_time": "14:33",
+      "gc_seconds": 873,
+      "gap": "+1:01:26",
+      "gap_seconds": 3686
+    },
+    {
+      "rank": 43,
+      "rider": "Buchmann Emanuel BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "14:33",
+      "gc_seconds": 873,
+      "gap": "+29:50",
+      "gap_seconds": 1790
+    },
+    {
+      "rank": 44,
+      "rider": "van der Poel Mathieu Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "17:40",
+      "gc_seconds": 1060,
+      "gap": "+2:32:00",
+      "gap_seconds": 9120
+    },
+    {
+      "rank": 45,
+      "rider": "Abrahamsen Jonas Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "19:10",
+      "gc_seconds": 1150,
+      "gap": "+3:09:15",
+      "gap_seconds": 11355
+    },
+    {
+      "rank": 46,
+      "rider": "Schultz Nick Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "19:38",
+      "gc_seconds": 1178,
+      "gap": "+2:28:19",
+      "gap_seconds": 8899
+    },
+    {
+      "rank": 47,
+      "rider": "Izagirre Ion Cofidis",
+      "team": "Cofidis",
+      "gc_time": "19:38",
+      "gc_seconds": 1178,
+      "gap": "+2:05:16",
+      "gap_seconds": 7516
+    },
+    {
+      "rank": 48,
+      "rider": "Alaphilippe Julian Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "19:40",
+      "gc_seconds": 1180,
+      "gap": "+1:45:20",
+      "gap_seconds": 6320
+    },
+    {
+      "rank": 49,
+      "rider": "Powless Neilson EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "20:22",
+      "gc_seconds": 1222,
+      "gap": "+2:30:20",
+      "gap_seconds": 9020
+    },
+    {
+      "rank": 50,
+      "rider": "Haller Marco BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "20:55",
+      "gc_seconds": 1255,
+      "gap": "+3:09:48",
+      "gap_seconds": 11388
+    },
+    {
+      "rank": 51,
+      "rider": "van Baarle Dylan Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "21:03",
+      "gc_seconds": 1263,
+      "gap": "+2:04:24",
+      "gap_seconds": 7464
+    },
+    {
+      "rank": 52,
+      "rider": "Berthet Clément AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "21:14",
+      "gc_seconds": 1274,
+      "gap": "+1:01:09",
+      "gap_seconds": 3669
+    },
+    {
+      "rank": 53,
+      "rider": "Costa Rui Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "21:27",
+      "gc_seconds": 1287,
+      "gap": "+3:05:29",
+      "gap_seconds": 11129
+    },
+    {
+      "rank": 54,
+      "rider": "Bjerg Mikkel UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "21:35",
+      "gc_seconds": 1295,
+      "gap": "+4:04:02",
+      "gap_seconds": 14642
+    },
+    {
+      "rank": 55,
+      "rider": "Le Gac Olivier Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "21:47",
+      "gc_seconds": 1307,
+      "gap": "+4:02:01",
+      "gap_seconds": 14521
+    },
+    {
+      "rank": 56,
+      "rider": "Politt Nils BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "22:03",
+      "gc_seconds": 1323,
+      "gap": "+2:38:25",
+      "gap_seconds": 9505
+    },
+    {
+      "rank": 57,
+      "rider": "Konrad Patrick BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "22:06",
+      "gc_seconds": 1326,
+      "gap": "+3:00:30",
+      "gap_seconds": 10830
+    },
+    {
+      "rank": 58,
+      "rider": "Champoussin Clément Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "22:16",
+      "gc_seconds": 1336,
+      "gap": "+2:27:48",
+      "gap_seconds": 8868
+    },
+    {
+      "rank": 59,
+      "rider": "Fraile Omar INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "22:57",
+      "gc_seconds": 1377,
+      "gap": "+2:38:10",
+      "gap_seconds": 9490
+    },
+    {
+      "rank": 60,
+      "rider": "Gregaard Jonas Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "23:50",
+      "gc_seconds": 1430,
+      "gap": "+2:22:11",
+      "gap_seconds": 8531
+    },
+    {
+      "rank": 61,
+      "rider": "Izagirre Gorka Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "23:50",
+      "gc_seconds": 1430,
+      "gap": "+1:40:40",
+      "gap_seconds": 6040
+    },
+    {
+      "rank": 62,
+      "rider": "Vermaerke Kevin Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "25:38",
+      "gc_seconds": 1538,
+      "gap": "+2:50:48",
+      "gap_seconds": 10248
+    },
+    {
+      "rank": 63,
+      "rider": "Delaplace Anthony Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "25:51",
+      "gc_seconds": 1551,
+      "gap": "+2:40:13",
+      "gap_seconds": 9613
+    },
+    {
+      "rank": 64,
+      "rider": "Perez Anthony Cofidis",
+      "team": "Cofidis",
+      "gc_time": "26:31",
+      "gc_seconds": 1591,
+      "gap": "+2:53:25",
+      "gap_seconds": 10405
+    },
+    {
+      "rank": 65,
+      "rider": "Cort Magnus EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "26:56",
+      "gc_seconds": 1616,
+      "gap": "+3:25:03",
+      "gap_seconds": 12303
+    },
+    {
+      "rank": 66,
+      "rider": "Juul-Jensen Christopher Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "26:56",
+      "gc_seconds": 1616,
+      "gap": "+3:51:06",
+      "gap_seconds": 13866
+    },
+    {
+      "rank": 67,
+      "rider": "Woods Michael Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "27:52",
+      "gc_seconds": 1672,
+      "gap": "+1:48:31",
+      "gap_seconds": 6511
+    },
+    {
+      "rank": 68,
+      "rider": "Madouas Valentin Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+1:01:16",
+      "gap_seconds": 3676
+    },
+    {
+      "rank": 69,
+      "rider": "Pacher Quentin Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+2:40:52",
+      "gap_seconds": 9652
+    },
+    {
+      "rank": 70,
+      "rider": "Ferron Valentin TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+3:17:50",
+      "gap_seconds": 11870
+    },
+    {
+      "rank": 71,
+      "rider": "Oliveira Nelson Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+2:20:58",
+      "gap_seconds": 8458
+    },
+    {
+      "rank": 72,
+      "rider": "Johannessen Tobias Halland Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+2:04:11",
+      "gap_seconds": 7451
+    },
+    {
+      "rank": 73,
+      "rider": "Stuyven Jasper Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+2:52:48",
+      "gap_seconds": 10368
+    },
+    {
+      "rank": 74,
+      "rider": "Peters Nans AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+3:12:17",
+      "gap_seconds": 11537
+    },
+    {
+      "rank": 75,
+      "rider": "Küng Stefan Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+2:22:58",
+      "gap_seconds": 8578
+    },
+    {
+      "rank": 76,
+      "rider": "Laengen Vegard Stake UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "27:55",
+      "gc_seconds": 1675,
+      "gap": "+3:37:23",
+      "gap_seconds": 13043
+    },
+    {
+      "rank": 77,
+      "rider": "Louvel Matis Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "28:37",
+      "gc_seconds": 1717,
+      "gap": "+2:34:47",
+      "gap_seconds": 9287
+    },
+    {
+      "rank": 78,
+      "rider": "Mohorič Matej Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "29:00",
+      "gc_seconds": 1740,
+      "gap": "+2:50:18",
+      "gap_seconds": 10218
+    },
+    {
+      "rank": 79,
+      "rider": "Mezgec Luka Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "29:00",
+      "gc_seconds": 1740,
+      "gap": "+3:48:55",
+      "gap_seconds": 13735
+    },
+    {
+      "rank": 80,
+      "rider": "Haig Jack Bahrain - Victorious fav_gc",
+      "team": "Bahrain - Victorious",
+      "gc_time": "29:18",
+      "gc_seconds": 1758,
+      "gap": "+1:46:00",
+      "gap_seconds": 6360
+    },
+    {
+      "rank": 81,
+      "rider": "Kragh Andersen Søren Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "29:26",
+      "gc_seconds": 1766,
+      "gap": "+3:51:51",
+      "gap_seconds": 13911
+    },
+    {
+      "rank": 82,
+      "rider": "Geschke Simon Cofidis",
+      "team": "Cofidis",
+      "gc_time": "29:44",
+      "gc_seconds": 1784,
+      "gap": "+2:28:19",
+      "gap_seconds": 8899
+    },
+    {
+      "rank": 83,
+      "rider": "Clarke Simon Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "30:11",
+      "gc_seconds": 1811,
+      "gap": "+3:33:57",
+      "gap_seconds": 12837
+    },
+    {
+      "rank": 84,
+      "rider": "Durbridge Luke Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "30:11",
+      "gc_seconds": 1811,
+      "gap": "+3:59:31",
+      "gap_seconds": 14371
+    },
+    {
+      "rank": 85,
+      "rider": "Dewulf Stan AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "30:11",
+      "gc_seconds": 1811,
+      "gap": "+3:09:05",
+      "gap_seconds": 11345
+    },
+    {
+      "rank": 86,
+      "rider": "Lafay Victor Cofidis",
+      "team": "Cofidis",
+      "gc_time": "30:11",
+      "gc_seconds": 1811,
+      "gap": "+3:16:08",
+      "gap_seconds": 11768
+    },
+    {
+      "rank": 87,
+      "rider": "Dinham Matthew Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "30:49",
+      "gc_seconds": 1849,
+      "gap": "+2:43:19",
+      "gap_seconds": 9799
+    },
+    {
+      "rank": 88,
+      "rider": "Cavagna Rémi Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "30:49",
+      "gc_seconds": 1849,
+      "gap": "+3:37:50",
+      "gap_seconds": 13070
+    },
+    {
+      "rank": 89,
+      "rider": "Hermans Quinten Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "31:30",
+      "gc_seconds": 1890,
+      "gap": "+3:34:48",
+      "gap_seconds": 12888
+    },
+    {
+      "rank": 90,
+      "rider": "Van Gils Maxim Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+2:23:06",
+      "gap_seconds": 8586
+    },
+    {
+      "rank": 91,
+      "rider": "Naesen Oliver AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:07:08",
+      "gap_seconds": 11228
+    },
+    {
+      "rank": 92,
+      "rider": "Biermans Jenthe Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+4:00:13",
+      "gap_seconds": 14413
+    },
+    {
+      "rank": 93,
+      "rider": "Smith Dion Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:41:39",
+      "gap_seconds": 13299
+    },
+    {
+      "rank": 94,
+      "rider": "Pichon Laurent Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+4:13:07",
+      "gap_seconds": 15187
+    },
+    {
+      "rank": 95,
+      "rider": "Moscon Gianni Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+4:15:02",
+      "gap_seconds": 15302
+    },
+    {
+      "rank": 96,
+      "rider": "Oss Daniel TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:26:08",
+      "gap_seconds": 12368
+    },
+    {
+      "rank": 97,
+      "rider": "Strong Corbin Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:27:25",
+      "gap_seconds": 12445
+    },
+    {
+      "rank": 98,
+      "rider": "Bettiol Alberto EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:16:13",
+      "gap_seconds": 11773
+    },
+    {
+      "rank": 99,
+      "rider": "Trentin Matteo UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:45:49",
+      "gap_seconds": 13549
+    },
+    {
+      "rank": 100,
+      "rider": "Dillier Silvan Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:50:22",
+      "gap_seconds": 13822
+    },
+    {
+      "rank": 101,
+      "rider": "van Poppel Danny BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:47:38",
+      "gap_seconds": 13658
+    },
+    {
+      "rank": 102,
+      "rider": "Declercq Tim Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+4:02:01",
+      "gap_seconds": 14521
+    },
+    {
+      "rank": 103,
+      "rider": "Boasson Hagen Edvald TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:27:41",
+      "gap_seconds": 12461
+    },
+    {
+      "rank": 104,
+      "rider": "Lampaert Yves Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:40:37",
+      "gap_seconds": 13237
+    },
+    {
+      "rank": 105,
+      "rider": "Rickaert Jonas Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:41:20",
+      "gap_seconds": 13280
+    },
+    {
+      "rank": 106,
+      "rider": "Amador Andrey EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:45:14",
+      "gap_seconds": 13514
+    },
+    {
+      "rank": 107,
+      "rider": "Calmejane Lilian Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+2:59:00",
+      "gap_seconds": 10740
+    },
+    {
+      "rank": 108,
+      "rider": "Bernal Egan INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+1:36:36",
+      "gap_seconds": 5796
+    },
+    {
+      "rank": 109,
+      "rider": "Philipsen Jasper Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:34:11",
+      "gap_seconds": 12851
+    },
+    {
+      "rank": 110,
+      "rider": "Zimmermann Georg Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+2:36:11",
+      "gap_seconds": 9371
+    },
+    {
+      "rank": 111,
+      "rider": "Turgis Anthony TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+3:31:08",
+      "gap_seconds": 12668
+    },
+    {
+      "rank": 112,
+      "rider": "Latour Pierre TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+2:57:31",
+      "gap_seconds": 10651
+    },
+    {
+      "rank": 113,
+      "rider": "López Juan Pedro Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "32:01",
+      "gc_seconds": 1921,
+      "gap": "+2:42:39",
+      "gap_seconds": 9759
+    },
+    {
+      "rank": 114,
+      "rider": "Jorgenson Matteo Movistar Team fav_gc",
+      "team": "Movistar Team",
+      "gc_time": "32:26",
+      "gc_seconds": 1946,
+      "gap": "+2:15:00",
+      "gap_seconds": 8100
+    },
+    {
+      "rank": 115,
+      "rider": "Asgreen Kasper Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "32:50",
+      "gc_seconds": 1970,
+      "gap": "+3:23:25",
+      "gap_seconds": 12205
+    },
+    {
+      "rank": 116,
+      "rider": "Devenyns Dries Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "32:50",
+      "gc_seconds": 1970,
+      "gap": "+4:10:24",
+      "gap_seconds": 15024
+    },
+    {
+      "rank": 117,
+      "rider": "De Buyst Jasper Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "33:00",
+      "gc_seconds": 1980,
+      "gap": "+4:15:05",
+      "gap_seconds": 15305
+    },
+    {
+      "rank": 118,
+      "rider": "Vermeersch Florian Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "33:00",
+      "gc_seconds": 1980,
+      "gap": "+4:05:47",
+      "gap_seconds": 14747
+    },
+    {
+      "rank": 119,
+      "rider": "Coquard Bryan Cofidis",
+      "team": "Cofidis",
+      "gc_time": "33:00",
+      "gc_seconds": 1980,
+      "gap": "+3:32:10",
+      "gap_seconds": 12730
+    },
+    {
+      "rank": 120,
+      "rider": "Wright Fred Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "33:00",
+      "gc_seconds": 1980,
+      "gap": "+3:35:26",
+      "gap_seconds": 12926
+    },
+    {
+      "rank": 121,
+      "rider": "Mozzato Luca Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "33:33",
+      "gc_seconds": 2013,
+      "gap": "+4:07:15",
+      "gap_seconds": 14835
+    },
+    {
+      "rank": 122,
+      "rider": "Laporte Christophe Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "33:33",
+      "gc_seconds": 2013,
+      "gap": "+3:20:45",
+      "gap_seconds": 12045
+    },
+    {
+      "rank": 123,
+      "rider": "Gogl Michael Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "33:39",
+      "gc_seconds": 2019,
+      "gap": "+3:59:12",
+      "gap_seconds": 14352
+    },
+    {
+      "rank": 124,
+      "rider": "Wærenskjold Søren Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "34:25",
+      "gc_seconds": 2065,
+      "gap": "+4:16:01",
+      "gap_seconds": 15361
+    },
+    {
+      "rank": 125,
+      "rider": "Pedersen Mads Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "34:25",
+      "gc_seconds": 2065,
+      "gap": "+3:41:54",
+      "gap_seconds": 13314
+    },
+    {
+      "rank": 126,
+      "rider": "Kirsch Alex Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "34:25",
+      "gc_seconds": 2065,
+      "gap": "+3:40:51",
+      "gap_seconds": 13251
+    },
+    {
+      "rank": 127,
+      "rider": "Eenkhoorn Pascal Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+3:07:42",
+      "gap_seconds": 11262
+    },
+    {
+      "rank": 128,
+      "rider": "Frison Frederik Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+4:32:59",
+      "gap_seconds": 16379
+    },
+    {
+      "rank": 129,
+      "rider": "Charmig Anthon Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+3:29:19",
+      "gap_seconds": 12559
+    },
+    {
+      "rank": 130,
+      "rider": "Paret-Peintre Aurélien AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+2:20:33",
+      "gap_seconds": 8433
+    },
+    {
+      "rank": 131,
+      "rider": "Cosnefroy Benoît AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+3:33:31",
+      "gap_seconds": 12811
+    },
+    {
+      "rank": 132,
+      "rider": "Tiller Rasmus Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+3:47:08",
+      "gap_seconds": 13628
+    },
+    {
+      "rank": 133,
+      "rider": "Fedorov Yevgeniy Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+4:34:12",
+      "gap_seconds": 16452
+    },
+    {
+      "rank": 134,
+      "rider": "Girmay Biniam Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "34:28",
+      "gc_seconds": 2068,
+      "gap": "+3:55:07",
+      "gap_seconds": 14107
+    },
+    {
+      "rank": 135,
+      "rider": "Boivin Guillaume Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "34:32",
+      "gc_seconds": 2072,
+      "gap": "+3:56:26",
+      "gap_seconds": 14186
+    },
+    {
+      "rank": 136,
+      "rider": "Kwiatkowski Michał INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "34:34",
+      "gc_seconds": 2074,
+      "gap": "+2:19:07",
+      "gap_seconds": 8347
+    },
+    {
+      "rank": 137,
+      "rider": "Sagan Peter TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "34:37",
+      "gc_seconds": 2077,
+      "gap": "+4:02:07",
+      "gap_seconds": 14527
+    },
+    {
+      "rank": 138,
+      "rider": "Eekhoff Nils Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "35:06",
+      "gc_seconds": 2106,
+      "gap": "+4:15:46",
+      "gap_seconds": 15346
+    },
+    {
+      "rank": 139,
+      "rider": "Edmondson Alex Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "35:06",
+      "gc_seconds": 2106,
+      "gap": "+4:29:26",
+      "gap_seconds": 16166
+    },
+    {
+      "rank": 140,
+      "rider": "Welsford Sam Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "35:06",
+      "gc_seconds": 2106,
+      "gap": "+4:25:04",
+      "gap_seconds": 15904
+    },
+    {
+      "rank": 141,
+      "rider": "Degenkolb John Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "35:06",
+      "gc_seconds": 2106,
+      "gap": "+4:24:10",
+      "gap_seconds": 15850
+    },
+    {
+      "rank": 142,
+      "rider": "Arndt Nikias Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "35:08",
+      "gc_seconds": 2108,
+      "gap": "+3:56:38",
+      "gap_seconds": 14198
+    },
+    {
+      "rank": 143,
+      "rider": "Reinders Elmar Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "35:08",
+      "gc_seconds": 2108,
+      "gap": "+4:14:29",
+      "gap_seconds": 15269
+    },
+    {
+      "rank": 144,
+      "rider": "Teunissen Mike Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "35:08",
+      "gc_seconds": 2108,
+      "gap": "+3:27:58",
+      "gap_seconds": 12478
+    },
+    {
+      "rank": 145,
+      "rider": "Groenewegen Dylan Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "35:11",
+      "gc_seconds": 2111,
+      "gap": "+4:17:39",
+      "gap_seconds": 15459
+    },
+    {
+      "rank": 146,
+      "rider": "Renard Alexis Cofidis",
+      "team": "Cofidis",
+      "gc_time": "35:14",
+      "gc_seconds": 2114,
+      "gap": "+4:18:52",
+      "gap_seconds": 15532
+    },
+    {
+      "rank": 147,
+      "rider": "Kristoff Alexander Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "35:14",
+      "gc_seconds": 2114,
+      "gap": "+4:05:03",
+      "gap_seconds": 14703
+    },
+    {
+      "rank": 148,
+      "rider": "Bauhaus Phil Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "35:14",
+      "gc_seconds": 2114,
+      "gap": "+4:30:05",
+      "gap_seconds": 16205
+    },
+    {
+      "rank": 149,
+      "rider": "Gallopin Tony Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "35:14",
+      "gc_seconds": 2114,
+      "gap": "+3:01:58",
+      "gap_seconds": 10918
+    },
+    {
+      "rank": 150,
+      "rider": "van den Berg Lars Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "35:18",
+      "gc_seconds": 2118,
+      "gap": "+2:56:40",
+      "gap_seconds": 10600
+    },
+    {
+      "rank": 151,
+      "rider": "Van Hooydonck Nathan Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "35:21",
+      "gc_seconds": 2121,
+      "gap": "+3:18:45",
+      "gap_seconds": 11925
+    },
+    {
+      "rank": 152,
+      "rider": "Meeus Jordi BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "35:24",
+      "gc_seconds": 2124,
+      "gap": "+4:23:50",
+      "gap_seconds": 15830
+    },
+    {
+      "rank": 153,
+      "rider": "Zingle Axel Cofidis",
+      "team": "Cofidis",
+      "gc_time": "35:41",
+      "gc_seconds": 2141,
+      "gap": "+4:31:25",
+      "gap_seconds": 16285
+    },
+    {
+      "rank": 154,
+      "rider": "Petit Adrien Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "35:48",
+      "gc_seconds": 2148,
+      "gap": "+4:17:20",
+      "gap_seconds": 15440
+    },
+    {
+      "rank": 155,
+      "rider": "Campenaerts Victor Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "36:00",
+      "gc_seconds": 2160,
+      "gap": "+2:25:27",
+      "gap_seconds": 8727
+    },
+    {
+      "rank": 156,
+      "rider": "Mørkøv Michael Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "37:22",
+      "gc_seconds": 2242,
+      "gap": "+4:45:31",
+      "gap_seconds": 17131
+    },
+    {
+      "rank": 157,
+      "rider": "Bol Cees Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "37:22",
+      "gc_seconds": 2242,
+      "gap": "+4:35:05",
+      "gap_seconds": 16505
+    },
+    {
+      "rank": 1,
+      "rider": "Vingegaard Jonas Jumbo-Visma fav_gc",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 2,
+      "rider": "Pogačar Tadej UAE Team Emirates fav_gc",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 3,
+      "rider": "Rodríguez Carlos INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 4,
+      "rider": "Yates Adam UAE Team Emirates fav_gc",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 5,
+      "rider": "Hindley Jai BORA - hansgrohe fav_gc",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 6,
+      "rider": "Kuss Sepp Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 7,
+      "rider": "Bilbao Pello Bahrain - Victorious fav_gc",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 8,
+      "rider": "Yates Simon Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 9,
+      "rider": "Gaudu David Groupama - FDJ fav_gc",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 10,
+      "rider": "Martin Guillaume Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 11,
+      "rider": "Gall Felix AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 12,
+      "rider": "Pidcock Thomas INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 13,
+      "rider": "Pinot Thibaut Groupama - FDJ fav_gc",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 14,
+      "rider": "Landa Mikel Bahrain - Victorious fav_gc",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 15,
+      "rider": "Buchmann Emanuel BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 16,
+      "rider": "Castroviejo Jonathan INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 17,
+      "rider": "Majka Rafał UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 18,
+      "rider": "Harper Chris Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 19,
+      "rider": "Kelderman Wilco Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 20,
+      "rider": "Berthet Clément AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 21,
+      "rider": "Madouas Valentin Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 22,
+      "rider": "O'Connor Ben AG2R Citroën Team fav_gc",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 23,
+      "rider": "van Aert Wout Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 24,
+      "rider": "Großschartner Felix UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 25,
+      "rider": "Barguil Warren Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 26,
+      "rider": "Burgaudeau Mathieu TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 27,
+      "rider": "Skjelmose Mattias Lidl - Trek fav_gc",
+      "team": "Lidl - Trek",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 28,
+      "rider": "Tejada Harold Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 29,
+      "rider": "Jungels Bob BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 30,
+      "rider": "Benoot Tiesj Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 31,
+      "rider": "Poels Wout Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲7",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 32,
+      "rider": "Bernal Egan INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼8",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 33,
+      "rider": "Izagirre Gorka Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 34,
+      "rider": "Ciccone Giulio Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 35,
+      "rider": "Teuns Dylan Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 36,
+      "rider": "Alaphilippe Julian Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 37,
+      "rider": "Haig Jack Bahrain - Victorious fav_gc",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼10",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 38,
+      "rider": "Woods Michael Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 39,
+      "rider": "Hamilton Chris Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 40,
+      "rider": "Geniets Kevin Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 41,
+      "rider": "Lutsenko Alexey Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲7",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 42,
+      "rider": "Johannessen Tobias Halland Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 43,
+      "rider": "van Baarle Dylan Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 44,
+      "rider": "Neilands Krists Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 45,
+      "rider": "Izagirre Ion Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 46,
+      "rider": "Houle Hugo Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲14",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 47,
+      "rider": "Mühlberger Gregor Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲9",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 48,
+      "rider": "Jorgenson Matteo Movistar Team fav_gc",
+      "team": "Movistar Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 49,
+      "rider": "Aranburu Alex Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲15",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 50,
+      "rider": "Kwiatkowski Michał INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 51,
+      "rider": "Paret-Peintre Aurélien AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 52,
+      "rider": "Oliveira Nelson Movistar Team",
+      "team": "Movistar Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 53,
+      "rider": "Gregaard Jonas Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 54,
+      "rider": "Küng Stefan Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 55,
+      "rider": "Van Gils Maxim Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 56,
+      "rider": "Campenaerts Victor Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼9",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 57,
+      "rider": "Champoussin Clément Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 58,
+      "rider": "Geschke Simon Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 59,
+      "rider": "Schultz Nick Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 60,
+      "rider": "Soler Marc UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲13",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 61,
+      "rider": "Powless Neilson EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 62,
+      "rider": "van der Poel Mathieu Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 63,
+      "rider": "Louvel Matis Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 64,
+      "rider": "Zimmermann Georg Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼7",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 65,
+      "rider": "Fraile Omar INEOS Grenadiers",
+      "team": "INEOS Grenadiers",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 66,
+      "rider": "Politt Nils BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 67,
+      "rider": "Delaplace Anthony Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 68,
+      "rider": "Pacher Quentin Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 69,
+      "rider": "López Juan Pedro Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 70,
+      "rider": "Dinham Matthew Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 71,
+      "rider": "Mohorič Matej Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 72,
+      "rider": "Vermaerke Kevin Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 73,
+      "rider": "Stuyven Jasper Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 74,
+      "rider": "Perez Anthony Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 75,
+      "rider": "van den Berg Lars Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 76,
+      "rider": "Latour Pierre TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 77,
+      "rider": "Calmejane Lilian Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 78,
+      "rider": "Urán Rigoberto EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲17",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 79,
+      "rider": "Konrad Patrick BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 80,
+      "rider": "Craddock Lawson Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲20",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 81,
+      "rider": "Gallopin Tony Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 82,
+      "rider": "Costa Rui Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 83,
+      "rider": "Naesen Oliver AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 84,
+      "rider": "Eenkhoorn Pascal Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 85,
+      "rider": "Dewulf Stan AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 86,
+      "rider": "Abrahamsen Jonas Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 87,
+      "rider": "Haller Marco BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 88,
+      "rider": "Peters Nans AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 89,
+      "rider": "Guglielmi Simon Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲27",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 90,
+      "rider": "Lafay Victor Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 91,
+      "rider": "Bettiol Alberto EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 92,
+      "rider": "Ferron Valentin TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 93,
+      "rider": "Van Hooydonck Nathan Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼9",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 94,
+      "rider": "Laporte Christophe Jumbo-Visma",
+      "team": "Jumbo-Visma",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 95,
+      "rider": "Asgreen Kasper Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 96,
+      "rider": "Cort Magnus EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 97,
+      "rider": "Træen Torstein Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲21",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 98,
+      "rider": "Oss Daniel TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 99,
+      "rider": "Strong Corbin Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 100,
+      "rider": "Boasson Hagen Edvald TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 101,
+      "rider": "Teunissen Mike Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼7",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 102,
+      "rider": "Charmig Anthon Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 103,
+      "rider": "Turgis Anthony TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 104,
+      "rider": "Coquard Bryan Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 105,
+      "rider": "Cosnefroy Benoît AG2R Citroën Team",
+      "team": "AG2R Citroën Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 106,
+      "rider": "Clarke Simon Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 107,
+      "rider": "Philipsen Jasper Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 108,
+      "rider": "Hermans Quinten Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 109,
+      "rider": "Wright Fred Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 110,
+      "rider": "Laengen Vegard Stake UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 111,
+      "rider": "Cavagna Rémi Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 112,
+      "rider": "Lampaert Yves Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 113,
+      "rider": "Kirsch Alex Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼4",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 114,
+      "rider": "Rickaert Jonas Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 115,
+      "rider": "Smith Dion Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 116,
+      "rider": "Pedersen Mads Lidl - Trek",
+      "team": "Lidl - Trek",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 117,
+      "rider": "Amador Andrey EF Education - EasyPost",
+      "team": "EF Education - EasyPost",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 118,
+      "rider": "Trentin Matteo UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 119,
+      "rider": "Tiller Rasmus Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 120,
+      "rider": "van Poppel Danny BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 121,
+      "rider": "Mezgec Luka Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 122,
+      "rider": "Dillier Silvan Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 123,
+      "rider": "Juul-Jensen Christopher Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲5",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 124,
+      "rider": "Kragh Andersen Søren Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 125,
+      "rider": "Girmay Biniam Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 126,
+      "rider": "Boivin Guillaume Israel - Premier Tech",
+      "team": "Israel - Premier Tech",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 127,
+      "rider": "Arndt Nikias Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 128,
+      "rider": "Gogl Michael Alpecin - Deceuninck",
+      "team": "Alpecin - Deceuninck",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 129,
+      "rider": "Durbridge Luke Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 130,
+      "rider": "Biermans Jenthe Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 131,
+      "rider": "Le Gac Olivier Groupama - FDJ",
+      "team": "Groupama - FDJ",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲8",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 132,
+      "rider": "Declercq Tim Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 133,
+      "rider": "Sagan Peter TotalEnergies",
+      "team": "TotalEnergies",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 134,
+      "rider": "Bjerg Mikkel UAE Team Emirates",
+      "team": "UAE Team Emirates",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲11",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 135,
+      "rider": "Kristoff Alexander Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 136,
+      "rider": "Vermeersch Florian Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 137,
+      "rider": "Mozzato Luca Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 138,
+      "rider": "Devenyns Dries Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 139,
+      "rider": "Pichon Laurent Team Arkéa Samsic",
+      "team": "Team Arkéa Samsic",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 140,
+      "rider": "Reinders Elmar Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 141,
+      "rider": "Moscon Gianni Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲6",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 142,
+      "rider": "De Buyst Jasper Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 143,
+      "rider": "Eekhoff Nils Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 144,
+      "rider": "Wærenskjold Søren Uno-X Pro Cycling Team",
+      "team": "Uno-X Pro Cycling Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 145,
+      "rider": "Petit Adrien Intermarché - Circus - Wanty",
+      "team": "Intermarché - Circus - Wanty",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼3",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 146,
+      "rider": "Groenewegen Dylan Team Jayco AlUla",
+      "team": "Team Jayco AlUla",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "-",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 147,
+      "rider": "Renard Alexis Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 148,
+      "rider": "Meeus Jordi BORA - hansgrohe",
+      "team": "BORA - hansgrohe",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 149,
+      "rider": "Degenkolb John Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 150,
+      "rider": "Welsford Sam Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 151,
+      "rider": "Edmondson Alex Team dsm - firmenich",
+      "team": "Team dsm - firmenich",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 152,
+      "rider": "Bauhaus Phil Bahrain - Victorious",
+      "team": "Bahrain - Victorious",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 153,
+      "rider": "Zingle Axel Cofidis",
+      "team": "Cofidis",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 154,
+      "rider": "Frison Frederik Lotto Dstny",
+      "team": "Lotto Dstny",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 155,
+      "rider": "Fedorov Yevgeniy Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲2",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 156,
+      "rider": "Bol Cees Astana Qazaqstan Team",
+      "team": "Astana Qazaqstan Team",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▼1",
+      "gap_seconds": 0
+    },
+    {
+      "rank": 157,
+      "rider": "Mørkøv Michael Soudal Quick-Step",
+      "team": "Soudal Quick-Step",
+      "gc_time": "",
+      "gc_seconds": 0,
+      "gap": "▲1",
+      "gap_seconds": 0
+    }
+  ]
+}
