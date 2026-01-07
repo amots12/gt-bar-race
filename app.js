@@ -1,149 +1,211 @@
-/* ============================================================
-   Tour de France – GC Bar Chart Race
-   ============================================================ */
+/**
+ * Tour de France 2023 – GC Bar Chart Race
+ * =====================================
+ *
+ * This file implements a single, continuous horizontal bar chart race
+ * using Apache ECharts and the timeline component.
+ *
+ * The chart is created ONCE and animated via timeline frames.
+ *
+ * -------------------------------------------------------------
+ * SENIOR-LEVEL ASSUMPTIONS (EXPLICIT)
+ * -------------------------------------------------------------
+ * 1. We animate ONLY stage_01.json → stage_20.json
+ *    - final_gc.json is excluded from animation (optional static use)
+ * 2. We visualize the TOP_N riders per stage for editorial clarity
+ * 3. Rank is authoritative and provided by the backend
+ * 4. gc_seconds is absolute and comparable across all stages
+ */
 
-   const chart = echarts.init(document.getElementById("chart"));
+const DATA_DIR = "data/tdf/2023/";
+const FIRST_STAGE = 1;
+const LAST_STAGE = 20;
+const TOP_N = 10;
 
-   const RACE = "tdf";
-   const YEAR = 2023;
-   const TOTAL_STAGES = 21;
-   const PLAY_INTERVAL = 1000;
-   
-   // ------------------------------------------------------------
-   // Utilities
-   // ------------------------------------------------------------
-   
-   function secondsToHMS(sec) {
-     const h = Math.floor(sec / 3600);
-     const m = Math.floor((sec % 3600) / 60);
-     const s = sec % 60;
-     return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-   }
-   
-   // ------------------------------------------------------------
-   // Load data
-   // ------------------------------------------------------------
-   
-   async function loadAllStages() {
-     const stages = [];
-   
-     for (let i = 1; i <= TOTAL_STAGES; i++) {
-       const s = String(i).padStart(2, "0");
-       const res = await fetch(`data/${RACE}/${YEAR}/stage_${s}.json`);
-       stages.push(await res.json());
-     }
-   
-     return stages;
-   }
-   
-   // ------------------------------------------------------------
-   // Init chart
-   // ------------------------------------------------------------
-   
-   loadAllStages().then(stages => {
-     // Global max GC time (freeze x-axis forever)
-     const MAX_TIME = Math.max(
-       ...stages.flat().map(d => d.acc_seconds)
-     );
-   
-     chart.setOption({
-       timeline: {
-         axisType: "category",
-         autoPlay: true,
-         playInterval: PLAY_INTERVAL,
-         show: false,
-         data: stages.map((_, i) => `S${i + 1}`)
-       },
-   
-       title: {
-         text: `Tour de France ${YEAR}`,
-         subtext: "General Classification",
-         left: "center",
-         top: 20,
-         textStyle: {
-           fontSize: 20,
-           fontWeight: 600
-         },
-         subtextStyle: {
-           fontSize: 13,
-           color: "#666"
-         }
-       },
-   
-       grid: {
-         left: 220,
-         right: 90,
-         top: 90,
-         bottom: 40
-       },
-   
-       xAxis: {
-        type: "value",
-        name: "Time behind leader (seconds)",
-        axisLabel: {
-          formatter: v => `+${Math.round(v / 60)}m`
-        }
+/**
+ * Utility: stage number → filename
+ * Ensures correct zero-padding (stage_01.json)
+ */
+function stageFile(stage) {
+  return `stage_${String(stage).padStart(2, "0")}.json`;
+}
+
+/**
+ * -------------------------------------------------------------
+ * DATA LOADING STRATEGY
+ * -------------------------------------------------------------
+ * - All stages are fetched in parallel
+ * - No incremental loading (prevents jitter)
+ * - Timeline frames are built only AFTER all data is available
+ */
+async function loadStages() {
+  const requests = [];
+
+  for (let i = FIRST_STAGE; i <= LAST_STAGE; i++) {
+    requests.push(
+      fetch(DATA_DIR + stageFile(i)).then(r => r.json())
+    );
+  }
+
+  return Promise.all(requests);
+}
+
+/**
+ * -------------------------------------------------------------
+ * GLOBAL AXIS CALCULATION (CRITICAL)
+ * -------------------------------------------------------------
+ * - Compute the MAX gc_seconds across ALL stages ONCE
+ * - X-axis is fixed and NEVER changes during animation
+ * - Prevents axis jumping or rescaling artifacts
+ */
+function computeGlobalMax(stages) {
+  let max = 0;
+
+  stages.forEach(stage => {
+    stage.gc.forEach(rider => {
+      if (rider.gc_seconds > max) {
+        max = rider.gc_seconds;
+      }
+    });
+  });
+
+  // Add small editorial headroom so bars never hit the edge
+  return Math.ceil(max * 1.05);
+}
+
+/**
+ * -------------------------------------------------------------
+ * STAGE → SERIES DATA TRANSFORMATION
+ * -------------------------------------------------------------
+ * IMPORTANT:
+ * - NO manual sorting (realtimeSort handles it)
+ * - Rank is used ONLY for styling (leader highlight)
+ * - Missing riders simply disappear (no ghost bars)
+ */
+function stageToSeriesData(stage) {
+  return stage.gc
+    .filter(r => r.rank <= TOP_N)
+    .map(r => ({
+      name: r.rider,
+      value: r.gc_seconds,
+      gc_time: r.gc_time,
+      itemStyle: {
+        color: r.rank === 1 ? "#FFD700" : "#9E9E9E"
       },
-   
-       yAxis: {
-         type: "category",
-         inverse: true,
-         axisLabel: {
-           fontSize: 13,
-           color: "#111"
-         },
-         animationDuration: 300,
-         animationDurationUpdate: 300
-       },
-   
-       series: [
-         {
-           type: "bar",
-           realtimeSort: true,
-           barWidth: 20,
-   
-           label: {
-             show: true,
-             position: "right",
-             fontSize: 12,
-             formatter: p => p.data.gc_time
-           },
-   
-           itemStyle: {
-             color: p =>
-               p.data.rank === 1
-                 ? "#f2c94c"   // yellow jersey
-                 : "#5470c6"
-           },
-   
-           animationDuration: 1200,
-           animationDurationUpdate: 1200,
-           animationEasing: "cubicOut",
-           animationEasingUpdate: "cubicOut"
-         }
-       ],
-   
-       // --------------------------------------------------------
-       // Timeline frames (one per stage)
-       // --------------------------------------------------------
-   
-       options: stages.map((stageData, idx) => ({
-         title: {
-           subtext: `General Classification — After Stage ${idx + 1}`
-         },
-   
-         yAxis: {
-           data: stageData.map(d => d.rider)
-         },
-   
-         series: [{
-          data: stageData.map(d => ({
-            value: d.acc_seconds - stageData[0].acc_seconds,
-            gc_time: d.overall_time,
-            rank: d.rank
-          }))
-        }]
-       }))
-     });
-   });
-   
+      label: {
+        show: true,
+        position: "right",
+        formatter: r.gc_time
+      }
+    }));
+}
+
+/**
+ * -------------------------------------------------------------
+ * TIMELINE OPTIONS
+ * -------------------------------------------------------------
+ * Each timeline frame updates ONLY the series data.
+ * The chart instance, axes, and layout remain untouched.
+ */
+function buildTimelineOptions(stages) {
+  return stages.map(stage => ({
+    title: {
+      text: `Tour de France 2023 – Stage ${stage.stage}`,
+      left: "center",
+      top: 10
+    },
+    series: [
+      {
+        data: stageToSeriesData(stage)
+      }
+    ]
+  }));
+}
+
+/**
+ * -------------------------------------------------------------
+ * CHART INITIALIZATION
+ * -------------------------------------------------------------
+ */
+async function init() {
+  const chartEl = document.getElementById("chart");
+  const chart = echarts.init(chartEl);
+
+  // Load all stage data
+  const stages = await loadStages();
+
+  // Compute global x-axis scale ONCE
+  const globalMax = computeGlobalMax(stages);
+
+  /**
+   * BASE OPTION
+   * - Static configuration
+   * - Applied once
+   */
+  const baseOption = {
+    animationDurationUpdate: 800,
+    animationEasing: "linear",
+
+    grid: {
+      left: 220,     // Fixed padding for long rider names
+      right: 100,
+      top: 70,
+      bottom: 40
+    },
+
+    xAxis: {
+      type: "value",
+      max: globalMax,
+      axisLabel: { show: false },
+      splitLine: { show: false }
+    },
+
+    yAxis: {
+      type: "category",
+      inverse: true,        // Rank 1 at top
+      realtimeSort: true,  // ECharts handles ordering
+      axisTick: { show: false },
+      axisLine: { show: false },
+      axisLabel: {
+        fontSize: 12
+      }
+    },
+
+    series: [
+      {
+        type: "bar",
+        barCategoryGap: "30%",
+        encode: {
+          x: "value",
+          y: "name"
+        },
+        label: {
+          show: true,
+          position: "right"
+        }
+      }
+    ],
+
+    timeline: {
+      axisType: "category",
+      autoPlay: true,
+      playInterval: 1200,
+      show: false,   // Timeline UI hidden by design
+      data: stages.map(s => `Stage ${s.stage}`)
+    }
+  };
+
+  /**
+   * FULL OPTION
+   * - baseOption + per-stage timeline frames
+   */
+  const option = {
+    baseOption,
+    options: buildTimelineOptions(stages)
+  };
+
+  chart.setOption(option);
+}
+
+// Bootstrap
+init();
