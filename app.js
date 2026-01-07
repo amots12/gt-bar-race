@@ -78,19 +78,12 @@
        },
    
        xAxis: {
-         type: "value",
-         max: MAX_TIME * 1.05,
-         axisLabel: {
-           formatter: v => {
-             const h = Math.floor(v / 3600);
-             const m = Math.floor((v % 3600) / 60);
-             return `${h}h ${m}m`;
-           }
-         },
-         splitLine: {
-           lineStyle: { color: "#eee" }
-         }
-       },
+        type: "value",
+        name: "Time behind leader (seconds)",
+        axisLabel: {
+          formatter: v => `+${Math.round(v / 60)}m`
+        }
+      },
    
        yAxis: {
          type: "category",
@@ -143,15 +136,13 @@
            data: stageData.map(d => d.rider)
          },
    
-         series: [
-           {
-             data: stageData.map(d => ({
-               value: d.acc_seconds,
-               gc_time: d.overall_time || secondsToHMS(d.acc_seconds),
-               rank: d.rank
-             }))
-           }
-         ]
+         series: [{
+          data: stageData.map(d => ({
+            value: d.acc_seconds - stageData[0].acc_seconds,
+            gc_time: d.overall_time,
+            rank: d.rank
+          }))
+        }]
        }))
      });
    });
